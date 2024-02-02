@@ -1,0 +1,6 @@
+myenv
+Ex_Unittest/complete_simplejwt/myenv
+Ex_Unittest/Ex_Unittest/migrations/*.pyc
+Ex_Unittest/products/__pycache__/*.pyc
+Ex_Unittest/products/migrations/__pycache__/*.pyc
+Ex_Unittest/Ex_Unittest/__pycache__/*.pyc
