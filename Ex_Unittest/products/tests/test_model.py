@@ -2,7 +2,7 @@ from django.test import TestCase
 from products.models import ProductModel
 from django.utils import timezone
 # Create your tests here.
-
+print('############ Test Model')
 class ProductModel_Test(TestCase):
     def p_model_test(self):
         pname='fan'
