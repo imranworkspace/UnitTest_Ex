@@ -4,7 +4,8 @@ from products.models import ProductModel
 import json
 print('############ Test View')
 class ProductsAllView_Test(TestCase):
-    def show_prod_test(self):
+    def test_showprod(self): # folder name should be test_ and fun name must be start with test_
+        print('### inside test_showprod')
         ProductModel.objects.create(
             pname= "fan",
             price= "3.00",

@@ -4,7 +4,8 @@ from django.utils import timezone
 # Create your tests here.
 print('############ Test Model')
 class ProductModel_Test(TestCase):
-    def p_model_test(self):
+    def test_pro_model(self):
+        print('### inside test_pro_model')
         pname='fan'
         price=12000
         stock=5
